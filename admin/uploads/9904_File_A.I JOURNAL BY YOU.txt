@@ -1,0 +1,173 @@
+A.I
+Intelligence property also ability atributted(given) to people who can know, think, talk, learn
+
+intelligence = knowledge + ability to passive, feel, comprehend, process, communicate
+                                             judge, learn 
+
+A.I is an interdesciplianary field aiming at developing techniques and tools for solving
+problems that people are not good at.
+
+David Marr "AI is the study of complex information processing problems espeacially the
+ ones that have roots in some aspect of biological information processing. the goal is
+ to identify information processing problems and solve them"
+
+Tom Dean "AI is the design, study & construction of computer programs that behave intelligently"
+
+Matt Ginserg "AI is the enterprise of constructing a physical symbol system that can
+ realibly pass the turing test"
+
+the above definitions advocate everything from replicating human intelligence to simply solving
+knowledge-intensive tasks.
+
+GOALS
+Scientific goal - understanding mechanism behind human itelligence.
+Engineering goal - develop concepts and tools capable of solving real world problems.
+
+INFERENCE RULES
+-inference refers to generating conclusion from evidence and facts
+-applied to deprive proof in A.I i.e a sequence of the conlusions
+ that leads to the desired goal
+
+First Order Logic Inference Rules for Universal and Existential Quantifiers
+ 
+-universal generalization: states that if premise P(c) {p of c} is true for any arbitary element c
+ 			   in the universe of discourse then conclude ∀x P(x) {for all x p of x}
+					 P(c)
+					∀x P(x)
+
+-universal instantiation: states that we can infer an instance P(c) by substituting ground term c
+			  from any object in the universe of discourse ∀x P(x). 
+			  if every person likes ice cream we can infer that John likes ice cream
+					∀x P(x)
+					 P(c)
+
+-existential instantiation: states that one can infer P(c) from the formula ∃xP(x) {there exist x p of x}
+			    for a new constant symbol c.
+					∃xP(x)
+					 P(c)
+
+-existential generalization: states that if there is some element c in the universe of discourse
+			     which has a proprety P then we can infer that there exists something in 
+			     the universe which has property.
+					 P(c)
+					∃xP(x)
+Propositional logic Inference Rules
+
+propositional logic is the simplest logic.
+Types of inference rules: Resolution, Modus Ponense, Modus Tollens, Destructive Dilemma, Constructive Dilemma, 
+	Hypothesis Syllogism, Disjunctive Syllogism, Simplification, Addition.
+
+Relations
+*implication: P -> Q
+*converse: Q -> P
+*contraposition: `Q -> `P
+*inverse: `P -> `Q
+
+Connectives
+`	: not		: negation
+A	: conjuction	: true when both is TT
+V	: disjunction	: true when either is T
+->	: implication	: true when `(TF)
+<->	: equivalence	: true when both TT & FF
+0	: exclusive or	: true when `(TT) & `(FF)
+
+
+FUZZY LOGIC
+-FL is a method of reasoning that resembles human reasoning. Computers making human like decisions.
+-That is to say it involves all intermediate possibilities between YES & NO. Has been implemented 
+ in micro-controllers and also in hardware/software/both.
+
+Fuzzy Logic Architecture
+              		   	   Rules
+				    |
+                                    |
+	Fuzzifier		    |			Defuzzifier
+      	    |			    |			     |
+	    |			    |			     |
+	    |_________________	Intelligence  _______________|
+        
+	Crisp Input--->					Crisp Output--->
+	Fuzzy Input set					Fuzzy Output set
+
+Rules
+All rules & If-Then conditions offered by the exports to control the decision making system
+
+Fuzzifier(Fuzzification)
+Converts crisp numbers input into fuzzy sets. sensors can measure crisp inputs.
+
+Intelligence/Inference Engine
+Determines degree of match b/w fuzzy input and rules. according to the crisp input field converted into
+a Fuzzy Input set) it decides on next fired rules to form control actions hence, fuzzy output sets.
+
+Defuzzifier()
+Converts fuzzy output sets into crisp number output.
+
+MEMEBERSHIP f(x)
+- is a graph used to define each input mapping to memebership values laying between 0 and 1.
+- allows the quantification of linguistic terms
+- represents a fuzzy set graphically
+- a membership f(x) for fuzzy set A on universe of discourse X = uA:X -> (0,1)
+
+Fuzzy 				vs		 	Probability
+Capture the essential concept of vagueness		Associated with events (may or not occur) and not facts
+Capture the meaning of partial truth			Captures partial knowledge
+Takes truth degress as a math basis			Mathematical model of ignorance
+
+Fuzzy Logic Applications
+Aerospace field for altitude control of spacecraft and satelite
+Controls speed and traffic in automotive systems
+Decision making support systems
+Controls the pH drying, chemical distillation process in the chemical industry
+Natural Language Processing and various intensive application in A.I
+Used un mordern control systems
+
+Why use Fuzzy Logic?
+1. Controls machines and consumer products.
+2. If not Accurate atleast Acceptable Reasoning.
+3. Deals with uncertanity in software/hardware engineering
+
+Advantages						Disadvantages
+-Easy and Understandable				-Not always accurate
+-Widely used for comercial and practical purposes	-Cannot recognize machine learning & nueral network partens
+-Control machines					-Extensive testing required to achieve Validation & Verification
+-Reduce uncertanity in software/hardware engineering	-Difficult task in seting fuzzy rule and membership functions
+-Roburst as no precise inputs required			-Easily confused with probability
+-Easily modifiable to improve/alter system perfomance
+-Use of expensive sensors hence low cost & complexity
+
+
+
+
+the three domains that will be used in modelling the aquatic environment protection system are location of containment, 
+agencies involved and remedial actions. describe the members of the term-sets related to each of the three domains based 
+on the description of the aquatic environment protection system for oil spills
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
